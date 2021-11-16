@@ -72,13 +72,13 @@ function assignData(yourName, herName) {
     data = [
         {
             title       :   'Introduction',
-            questions   :   ['hi', 'hello', 'hey', 'whatsup'],
+            questions   :   ['hi', 'hello', 'hey', 'whatsup','test'],
             ans         :   ['Hi', 'Hi Babe', 'Hi Sweetheart', 'Hi Babu', `Hi ${yourName}`, 'Hello' , 'Hello Babe', 'Hello Sweetheart', 'Hello Babu', 'Hey', 'Hey Babe', 'Hey Sweetheart', 'Hey Babu', 'Whatsup', 'Whatsup Babe', 'Whatsup Sweetheart', 'Whatsup Babu'],
         },
         {
             title       :   'Propose',
-            questions   :   ['I Love You', 'Love You'],
-            ans         :   ['I Love You Two', 'Love You', 'Amio Tumake ValoBashi', 'Love You Sweetheart'],
+            questions   :   ['I Love You', 'Love You','i like you'],
+            ans         :   ['I Love You Two', 'Love You', 'Amio Tumake ValoBashi', 'Love You Sweetheart',],
         },
         {
             title       :   'Her Name',
@@ -93,7 +93,7 @@ function assignData(yourName, herName) {
         {
             title       :   'About Developer',
             questions   :   ['Who Is Your Owner', 'Your Owner', 'Who Makes You', 'Who Is Your Developer'],
-            ans         :   ['DevTom', 'Tom', 'Tonmoy']
+            ans         :   ['XR7', 'Samir', 'sam']
         }
     ]
 }
