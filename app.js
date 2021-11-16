@@ -78,7 +78,7 @@ function assignData(yourName, herName) {
         {
             title       :   'Propose',
             questions   :   ['I Love You', 'Love You','i like you'],
-            ans         :   ['I Love You Two', 'Love You', 'Amio Tumake ValoBashi', 'Love You Sweetheart',],
+            ans         :   ['I Love You Two', 'Love You', 'Amio Tumake ValoBashi', 'Love You Sweetheart','Really'],
         },
         {
             title       :   'Her Name',
@@ -198,7 +198,7 @@ function findData(transcript) {
 function readData(message) {
 
     // VALIDATING THAT THE ANSWER IS AVAILABLE
-    message = (message == false)? "Uff Bujlam Na" : message;
+    message = (message == false)? "Sorry can't understand" : message;
 
     const speech = new SpeechSynthesisUtterance();
     speech.text = message;

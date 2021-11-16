@@ -153,17 +153,17 @@ body {
 }
 
 .form-switch .talkBackSwitch:checked {
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #00000;
+  border-color: #00000;
 }
 
 .form-switch .talkBackSwitch:checked:focus {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+  background-image: url("https://cdn.glitch.me/c33659a1-a51c-43ab-9d34-319e4a21197d%2Funiverse-21-dashboard-bg.png?v=1635949402417' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 
 .form-switch .talkBackSwitch:focus {
   border-color: #dc3545;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+  background-image: url("https://cdn.glitch.me/c33659a1-a51c-43ab-9d34-319e4a21197d%2Funiverse-21-dashboard-bg.png?v=1635949402417' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
   -webkit-box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
           box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
 }
